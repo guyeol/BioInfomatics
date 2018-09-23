@@ -161,7 +161,7 @@ public:
 };
 
 int main(int argc, const char * argv[]) {
-  string filePath = "/Users/jeong-guyeol/Developer/BioInfomatics/Lab1_Motif_Finding/test01.txt";
+  string filePath = argv[1];
   ifstream openFile(filePath.data());
   vector<string> dna;
   if( openFile.is_open() ){
