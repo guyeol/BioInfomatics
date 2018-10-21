@@ -8,9 +8,9 @@
 * 두 번째 인자로 두 번째 Sequence 파일의 경로를 입력한다.
 * 세 번째 인자로 score 파일의 경로를 입력한다.
 * 네 번째 인자로 결과가 쓰여질 output 파일의 경로를 입력한다.
-1. Sequence 파일은
-	* 한 줄로 된 최대 100글자 sequence 하나로 이루어져있다.
-2. score 파일은
+* Sequence 파일은
+  * 한 줄로 된 최대 100글자 sequence 하나로 이루어져있다.
+* score 파일은
   * match, mismatch, gap에 따른 score를 순서대로 적어놓는다.
 ### 1.2 출력
 1. Global Alignment에 따른 score와 sequence를 출력시킨다.
